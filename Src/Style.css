@@ -1,3 +1,105 @@
-h1 {
-  color: red;
+:root {
+  --primary-color: rgb(142, 52, 226);
+  --border: 1px solid rgb(142, 52, 226);
+  --box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  --button-padding: 15px;
+  --font: arial, Helvetica;
+}
+h1,
+h3 {
+  color: black;
+  text-align: center;
+}
+h5 {
+  opacity: 0.85;
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+
+  padding: 20px;
+}
+.container {
+  font-family: var(--font);
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 40px;
+  margin-top: 100px;
+}
+
+.contact-h1 {
+  opacity: 0.8;
+}
+.text {
+  font-family: var(--font);
+  display: flex;
+  justify-content: space-between;
+}
+
+.paragraph {
+  padding: 30px;
+  border: var(--border);
+  max-width: 200px;
+  border-color: rgb(245, 252, 222);
+  background-color: rgb(245, 252, 222);
+}
+.back-to-hp {
+  display: flex;
+  justify-content: center;
+}
+strong {
+  font-family: var(--font);
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+}
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.link1,
+.link2 {
+  padding: 15px;
+  text-decoration: none;
+  justify-content: space-between;
+  border: var(--border);
+  border-radius: 5px;
+  margin: 15px;
+  box-shadow: var(--box-shadow);
+}
+.link1 {
+  background-color: var(--primary-color);
+  color: white;
+  transition: 2ms ease-in-out;
+}
+.link1:hover {
+  background-color: white;
+  color: var(--primary-color);
+}
+.link2 {
+  color: var(--primary-color);
+  transition: 2ms ease-in-out;
+}
+.link2:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
+p {
+  display: flex;
+  justify-content: center;
+  font-family: var(--font);
+  font-size: 55px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+a#emailaddress {
+  display: flex;
+  justify-content: center;
+
+  text-decoration: none;
+  color: var(--primary-color);
 }
