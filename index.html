@@ -10,11 +10,47 @@
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="Src/style.css" />
 
-    <title>Document</title>
+    <title>Home</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html#emailaddress"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="container">
       <h3>Hi! It is:</h3>
       <h1>Neda Ghodrati</h1>
@@ -25,6 +61,76 @@
           Contact Me</a
         >
         <a href="Contact.html" class="link2" id="about"> About Me</a>
+      </div>
+    </div>
+    <div class="container-2">
+      <div class="row">
+        <div class="container-fluid-2 col-sm-6">
+          <img
+            src="images/Yuga.png"
+            alt="yuga information"
+            class="img-fluid Rounded"
+          />
+        </div>
+
+        <div class="col-sm-6" id="yugatext">
+          <h2>Take Yoga Classes</h2>
+          A yuga, in Hinduism, is generally used to indicate an age of time. In
+          the Rigveda, a yuga refers to generations, a long period, a very brief
+          period, or a yoke. In the Mahabharata, the words yuga and kalpa are
+          used interchangeably to describe the cycle of creation and
+          destruction.
+          <br />
+          <br />
+          <a href="#" id="linkyoga"> Go to class </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6" id="saladtext">
+          <h2>Salad Restaurant</h2>
+          Hello, we're Jeanine and Jack. We love to eat, travel, cook, and eat
+          some more! We create & photograph vegetarian recipes from our home in
+          Chicago, while our shiba pups eat the kale stems that fall on the
+          kitchen floor.
+          <br />
+          <br />
+
+          <a href="#" id="linksalad"> Order now</a>
+        </div>
+        <div class="container-fluid-2 col-sm-6">
+          <img
+            src="images/Salad.png"
+            alt="Salad information"
+            class="img-fluid rounded d-flex"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="container-fluid-2 col-sm-6">
+          <img
+            src="images/Vanilla.png"
+            alt="Vanilla information"
+            class="img-fluid d-flex"
+          />
+        </div>
+
+        <div class="col-sm-6" id="Vanillatext">
+          <h2>Vanilla Weather App</h2>
+          Vanilla weather app is a user friendly app to look for the weather
+          condition of your intended city, it is using the API of "openweather
+          map"and will let you know about the weather condition of each searched
+          city for the next 5 days.A very usefull app for you when planning a
+          trip.Good Luck with it! 😊
+          <br />
+
+          <br />
+          <a
+            href="https://peaceful-davinci-f730e5.netlify.app/"
+            id="linktovanilla"
+          >
+            Go to app</a
+          >
+        </div>
       </div>
     </div>
   </body>
