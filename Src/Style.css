@@ -142,3 +142,8 @@ h2 {
   justify-content: space-evenly;
   margin-top: 30px;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
